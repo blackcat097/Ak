@@ -1,44 +1,42 @@
-# Powered by @HYPER_AD13 | @ShiningOff
-# Dear Pero ppls Plish Don't remove this line from here🌚
+# thanks bro @HYPER_AD13 | @ShiningOff
 
-# Powered by @HYPER_AD13 | @ShiningOff
-# Dear Pero ppls Plish Don't remove this line from here🌚
+# @Abishnoi1M ( KingAbishnoi)
 
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from config import (BOT_NAME, SUPPORT_GROUP, OWNER_USERNAME, BOT_USERNAME)
 
 
-t1 = """Hey {}\n\n➥ Myself {}\n❅ A simple , lagfree and flexible music robot!\n❅ If you facing any issue related to this music bot then please join @{}\n❅ For more help you can explorer help menu by tapping on /help !"""
+t1 = """Hᴇʏ {}\n\n➥ Mʏsᴇʟғ {}\n\n❅ A sɪᴍᴘʟᴇ , ʟᴀɢғʀᴇᴇ ᴀɴᴅ ғʟᴇxɪʙʟᴇ ᴍᴜsɪᴄ ʙᴏᴛ!\n❅ Iғ ʏᴏᴜ ғᴀᴄɪɴɢ ᴀɴʏ ɪssᴜᴇ ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜɪs ᴍᴜsɪᴄ ʙᴏᴛ ᴛʜᴇɴ ᴘʟᴇᴀsᴇ ᴊᴏɪɴ @{}\n❅ Fᴏʀ ᴍᴏʀᴇ ʜᴇʟᴘ ʏᴏᴜ ᴄᴀɴ ᴇxᴘʟᴏʀᴇʀ ʜᴇʟᴘ ᴍᴇɴᴜ ʙʏ ᴛᴀᴘᴘɪɴɢ ᴏɴ /help !"""
 
 
-t2 = """Hoi {}\nHere is the help menu choose your desireoption nd explorer it!!\n\nFor any kind of help or query Just join @{} and ask your query!!"""
+t2 = """Hᴏɪ {}\n Hᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ᴍᴇɴᴜ ᴄʜᴏᴏsᴇ ʏᴏᴜʀ ᴅᴇsɪʀᴇᴏᴘᴛɪᴏɴ ɴᴅ ᴇxᴘʟᴏʀᴇʀ ɪᴛ!!\n \n Fᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏғ ʜᴇʟᴘ ᴏʀ ǫᴜᴇʀʏ Jᴜsᴛ ᴊᴏɪɴ @{} ᴀɴᴅ ᴀsᴋ ʏᴏᴜʀ ǫᴜᴇʀʏ!!"""
 
 
 t3 = """
-`Basics Commands !!`
+  *Bᴀsɪᴄs Cᴏᴍᴍᴀɴᴅs !*
 
-/play (query, ytlink, audio file) - use this command and enjoy music
-/ytp (query) - Use it for better search music!!
-/song (query) - Download your favourite songs using this command!
-/search (query) - This command will give you youtube search of your query!
+/play (ǫᴜᴇʀʏ, ʏᴛʟɪɴᴋ, ᴀᴜᴅɪᴏ ғɪʟᴇ) - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴀɴᴅ ᴇɴᴊᴏʏ ᴍᴜsɪᴄ
+/ytp (ǫᴜᴇʀʏ) - Usᴇ ɪᴛ ғᴏʀ ʙᴇᴛᴛᴇʀ sᴇᴀʀᴄʜ ᴍᴜsɪᴄ!!
+/song (ǫᴜᴇʀʏ) - Dᴏᴡɴʟᴏᴀᴅ ʏᴏᴜʀ ғᴀᴠᴏᴜʀɪᴛᴇ sᴏɴɢs ᴜsɪɴɢ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ!
+/search (ǫᴜᴇʀʏ) - Tʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴡɪʟʟ ɢɪᴠᴇ ʏᴏᴜ ʏᴏᴜᴛᴜʙᴇ sᴇᴀʀᴄʜ ᴏғ ʏᴏᴜʀ ǫᴜᴇʀʏ!
 """
 
 t4 = """
-`Admins Commands!!`
+     *Aᴅᴍɪɴs Cᴏᴍᴍᴀɴᴅs*
 
-/pause - To pause the song!
-/resume - Resume paused song!
-/skip - skip to the next song!
-/end - End the stream!
-/joinub - To invite assistant in your group!
+/pause - Tᴏ ᴘᴀᴜsᴇ ᴛʜᴇ sᴏɴɢ!
+/resume - Rᴇsᴜᴍᴇ ᴘᴀᴜsᴇᴅ sᴏɴɢ!
+/skip - sᴋɪᴘ ᴛᴏ ᴛʜᴇ ɴᴇxᴛ sᴏɴɢ!
+/end - Eɴᴅ ᴛʜᴇ sᴛʀᴇᴀᴍ!
+/joinub - Tᴏ ɪɴᴠɪᴛᴇ ᴀssɪsᴛᴀɴᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ!
 
 
-`Sudo Command!`
+   *Sᴜᴅᴏ Cᴏᴍᴍᴀɴᴅ*
 
-/rmf - To clean Download file from database!
-/rmw - To clean raw files from database!
-/dclean - To clean files from server!
+/rmf - Tᴏ ᴄʟᴇᴀɴ Dᴏᴡɴʟᴏᴀᴅ ғɪʟᴇ ғʀᴏᴍ ᴅᴀᴛᴀʙᴀsᴇ!
+/rmw - Tᴏ ᴄʟᴇᴀɴ ʀᴀᴡ ғɪʟᴇs ғʀᴏᴍ ᴅᴀᴛᴀʙᴀsᴇ!
+/dclean - Tᴏ ᴄʟᴇᴀɴ ғɪʟᴇs ғʀᴏᴍ sᴇʀᴠᴇʀ!
 """
 
 
-t5 = """Hey {},\n\nHere is the source code of {} \nSo deploy your own and enjoy and don't forget to fork nd to give star 😕!!"""
+t5 = """Hᴇʏ {},\n\nHᴇʀᴇ ɪs ᴛʜᴇ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ᴏғ {} \nSᴏ ᴅᴇᴘʟᴏʏ ʏᴏᴜʀ ᴏᴡɴ ᴀɴᴅ ᴇɴᴊᴏʏ ᴀɴᴅ ᴅᴏɴ'ᴛ ғᴏʀɢᴇᴛ ᴛᴏ ғᴏʀᴋ ɴᴅ ᴛᴏ ɢɪᴠᴇ sᴛᴀʀ 😕!!"""
