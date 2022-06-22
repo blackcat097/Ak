@@ -1,9 +1,5 @@
-# Powered by @HYPER_AD13 | @ShiningOff
-# Dear Pero ppls Plish Don't remove this line from here🌚
-
-# Powered by @HYPER_AD13 | @ShiningOff
-# Dear Pero ppls Plish Don't remove this line from here🌚
-
+# @HYPER_AD13 | @ShiningOff
+# @Abishnoi1M
 import os
 from os import path
 from pyrogram import Client, filters
@@ -109,7 +105,7 @@ async def play(_, message: Message):
     await message.delete()
     usrid = message.from_user.mention
 
-    lel = await message.reply("🔍")
+    lel = await message.reply("💥")
 
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
@@ -117,7 +113,7 @@ async def play(_, message: Message):
     try:
         user = await USER.get_me()
     except:
-        user.first_name = "SilentMusic01"
+        user.first_name = "Abishnoi"
     usar = user
     wew = usar.id
     try:
@@ -129,13 +125,13 @@ async def play(_, message: Message):
                     invitelink = await _.export_chat_invite_link(chid)
                 except:
                     await lel.edit(
-                        "<b><i>sʜʜ, ɪ ᴍ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ғɪʀsᴛ ᴛᴏ ᴘʟᴀʏ sᴏɴɢs🙋‍♀️🥀</i></b>")
+                        "<b><i>sʜʜ, ɪ ᴍ ɴᴏᴛ ᴀɴ ᴀᴅᴍɪɴ ʜᴇʀᴇ ᴍᴀᴋᴇ ᴍᴇ ᴀᴅᴍɪɴ ɪɴ ᴛʜɪs ᴄʜᴀᴛ ғɪʀsᴛ ᴛᴏ ᴘʟᴀʏ sᴏɴɢs🥀</i></b>")
                     return
 
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "sɪʟᴇɴᴛ-ᴍᴜsɪᴄ's ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀᴛ ᴡᴏᴡ🧚‍♀️🥀")
+                        message.chat.id, "ᴀᴋ -ᴍᴜsɪᴄ's ᴀssɪsᴛᴀɴᴛ ᴊᴏɪɴ ᴛʜᴇ ᴄʜᴀᴛ ᴡᴏᴡ🥀")
 
                 except UserAlreadyParticipant:
                     pass
@@ -174,11 +170,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="Aʙɪsʜɴᴏɪ 🥀",
+                            url=f"https://t.me/Abishnoi1M"),
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
+                            text="ᴜᴘᴅᴀᴛᴇs♪",
+                            url=f"https://t.me/Abishnoi_bots"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -218,11 +214,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="ᴀʙɪsʜɴᴏɪ 🥀",
+                            url=f"https://t.me/Abishnoi1M"),
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
+                            text="ᴜᴘᴅᴀᴛᴇs♪",
+                            url=f"https://t.me/Abishnoi_bots"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -239,11 +235,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="ᴀʙɪsʜɴᴏɪ 🥀",
+                            url=f"https://t.me/Abishnoi1M"),
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
+                            text="ᴜᴘᴅᴀᴛᴇs♪",
+                            url=f"https://t.me/Abishnoi_bots"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
@@ -298,11 +294,11 @@ async def play(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                            text="ᴛᴇᴀᴍ-sɪʟᴇɴᴛ🥀",
-                            url=f"https://t.me/SILENT_DEVS"),
+                            text="ᴀʙɪsʜɴᴏɪ 🥀",
+                            url=f"https://t.me/Abishnoi1M"),
                     InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇs👾",
-                            url=f"https://t.me/SILENT_BOTS"),
+                            text="ᴜᴘᴅᴀᴛᴇs♪",
+                            url=f"https://t.me/Abishnoi_bots"),
                ],
                [
                    InlineKeyboardButton(text="Close Menu", callback_data="close_"),                   
