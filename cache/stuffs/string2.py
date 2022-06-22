@@ -19,12 +19,12 @@ button1 = [
 
 button2 = [
     [
-        InlineKeyboardButton(text="Basic!", callback_data="basic_"),
-        InlineKeyboardButton(text="Advance!", callback_data="admin_cmd"),
+        InlineKeyboardButton(text="ɴᴏʀᴍʟᴀ!", callback_data="basic_"),
+        InlineKeyboardButton(text="ᴘʟᴀʏ!", callback_data="admin_cmd"),
     ],
     [
-        InlineKeyboardButton(text="Close", callback_data="close_"),
-        InlineKeyboardButton(text="Back", callback_data="HOME"),
+        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close_"),
+        InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="HOME"),
     ],
 ]
 
@@ -33,15 +33,15 @@ button2 = [
 button3 = [
     [
         InlineKeyboardButton(text="Source", url="https://github.com/KingAbishnoi/AkMusic"),
-        InlineKeyboardButton(text="Back", callback_data="HOME"),
+        InlineKeyboardButton(text="•ʙᴀᴄᴋ•", callback_data="HOME"),
     ],
 ]
 
 
 button4 = [
     [
-        InlineKeyboardButton(text="Close", callback_data="close_"),
-        InlineKeyboardButton(text="Back", callback_data="help_"),
+        InlineKeyboardButton(text="ᴄʟᴏsᴇ", callback_data="close_"),
+        InlineKeyboardButton(text="•ʙᴀᴄᴋ•", callback_data="help_"),
     ],
 ]
 
