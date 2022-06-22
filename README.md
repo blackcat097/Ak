@@ -42,7 +42,7 @@
 <h3><b><i>Forks nd Stars</i></b></h3>
 <img src="https://img.shields.io/github/license/KingAbishnoi/Ak.svg"> <img src="https://img.shields.io/github/forks/KingAbishnoi/Ak.svg"> <img src="https://img.shields.io/github/stars/KingAbishnoi/Ak.svg">
 <a href="https://github.com/KingAbishnoi/Ak"><img src="https://github-readme-stats.vercel.app/api/pin/?username=KingAbishnoi&repo=Ak&theme=radical"></a>
-<a href="https://github.com/KingAbishnoi/Ak/fork"><img src="https://img.shields.io/badge/Fork%20Devu%20Music-black?style=for-the-badge&logo=github"></a>
+<a href="https://github.com/KingAbishnoi/Ak/fork"><img src="https://img.shields.io/badge/Fork%20AK%20Music-black?style=for-the-badge&logo=github"></a>
 </pre></p>
 
 
