@@ -4,7 +4,7 @@ from config import (BOT_NAME, SUPPORT_GROUP, OWNER_USERNAME, BOT_USERNAME)
 
 button1 = [
     [
-        InlineKeyboardButton(text="𖠌 ᴜᴘᴅᴀᴛᴇ 𖠌", url=f"https://t.me/Abishnoi_bots"),
+        InlineKeyboardButton(text=" ᴜᴘᴅᴀᴛᴇ ", url=f"https://t.me/Abishnoi_bots"),
         InlineKeyboardButton(text="💥 ᴀᴅᴅ ᴍᴇ 💥", url=f"http://t.me/{BOT_USERNAME}?startgroup=true"),
     ],
     [
